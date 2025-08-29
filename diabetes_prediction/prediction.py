@@ -1,5 +1,7 @@
+# Import Necessary Libraries.
 import pandas as pd
 
+# Function to Test Data Preperation.S
 def create_test_data():
     """Return a sample test data DataFrame for prediction."""
     test_data = pd.DataFrame({

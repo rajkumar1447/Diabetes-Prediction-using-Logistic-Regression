@@ -1,5 +1,7 @@
+# Import Required Libraries.
 import pandas as pd
 
+# Function to Load the data set.
 def load_data(file_path: str) -> pd.DataFrame:
     """Load and return the diabetes dataset."""
     column_names = [

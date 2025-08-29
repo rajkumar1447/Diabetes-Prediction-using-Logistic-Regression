@@ -1,5 +1,7 @@
+# Import necessary Libraries.
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
+# Function to Evaluate the Mo0del.
 def evaluate_model(model, x_test, y_test):
     """Evaluate the model and return metrics."""
     y_pred = model.predict(x_test)
